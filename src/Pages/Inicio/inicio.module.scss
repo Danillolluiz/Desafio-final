@@ -3,4 +3,52 @@
   background-repeat: no-repeat;
   height: 88vh;
   background-size: contain;
+  display: flex;
+  align-items: center;
+  h2 {
+    // border: solid 2px red;
+    color: white;
+    margin-left: 150px;
+    font-size: 40px;
+    width: 24vw;
+  }
+}
+.devoDoar {
+  // border: solid 2px red;
+  height: 80vh;
+  div {
+    // border: solid 2px yellow;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 30px;
+      margin-left: 60px;
+      color: rgba(0, 86, 149, 1);
+    }
+  }
+}
+.boxCard {
+  // border: solid 2px green;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  article {
+    // border: solid 2px blue;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(1, 87, 148, 0.3);
+    border-radius: 10px;
+    p {
+      // border: solid 2px blue;
+      text-align: center;
+      width: 70%;
+      font-size: 20px;
+    }
+  }
 }
