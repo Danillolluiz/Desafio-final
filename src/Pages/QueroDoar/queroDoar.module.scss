@@ -1,9 +1,56 @@
 .principal {
-  border: solid 2px red;
+  // border: solid 2px red;
   height: 80vh;
   display: flex;
   justify-content: center;
 }
 .container {
-  border: solid 2px red;
+  // border: solid 2px yellow;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  h2 {
+    // border: solid 2px red;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+form {
+  border: solid 2px rgba(0, 86, 149, 1);
+  width: 25vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  div {
+    // border: solid 2px green;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(0, 86, 149, 1);
+  }
+  input {
+    width: 22vw;
+    height: 5vh;
+    border: solid 2px rgba(0, 86, 149, 1);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    &::placeholder {
+      color: black;
+    }
+  }
+  .doar {
+    background-color: rgba(0, 86, 149, 1);
+    width: 10vw;
+    height: 6vh;
+    padding-left: 0;
+    color: white;
+    font-size: 17px;
+  }
 }

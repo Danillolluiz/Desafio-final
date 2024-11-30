@@ -3,11 +3,6 @@ import balance from "../../assets/balance.png";
 import network from "../../assets/network.png";
 import read from "../../assets/read.png";
 import transform from "../../assets/transform.png";
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/instagram.png";
-import linkedin from "../../assets/linkedin.png";
-import twitter from "../../assets/twitter.png";
-import youtube from "../../assets/youtube.png";
 
 export default function Inicio() {
   return (
