@@ -10,12 +10,7 @@ header {
     rgba(0, 86, 149, 1) 88%
   );
 }
-@media (max-width: 1350px) {
-  header {
-    height: 15vh;
-    justify-content: space-around;
-  }
-}
+
 .boxLogo {
   // border: solid 2px yellow;
   width: 23vw;
@@ -34,17 +29,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
     a {
       color: white;
-      font-size: 20px;
     }
   }
 }
-@media (max-width: 1350px) {
-  ul {
-    width: 30vw;
-  }
-}
+
 .boxInput {
   border: solid 2px white;
   width: 17vw;
@@ -56,6 +47,7 @@ header {
   padding-left: 15px;
   border-radius: 15px;
   input {
+    width: 12vw;
     background-color: transparent;
     outline: none;
     border: none;
@@ -66,17 +58,73 @@ header {
     }
   }
 }
-// @media (max-width: 1350px) {
-//   .boxInput {
-//     border: solid 2px yellow;
-//     width: 17vw;
-//     height: 5vh;
-//     margin-right: 100px;
-//     padding-left: 50px;
-//     justify-content: space-evenly;
+@media (max-width: 1151px) {
+  .boxLogo {
+    // border: solid 2px red;
+    width: 25vw;
+    h1 {
+      font-size: 1.9vw;
+    }
+    img {
+      width: 5vw;
+    }
+  }
+  .boxMenu {
+    // border: solid 2px yellow;
+    ul {
+      font-size: 1.7vw;
+    }
+  }
+  .boxInput {
+    // border: solid 2px green;
+    width: 18vw;
+    input {
+      &::placeholder {
+        font-size: 1.2vw;
+      }
+    }
+  }
+}
+@media (max-width: 760px) {
+  header {
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .boxInput {
+    display: none;
+  }
+  .boxLogo {
+    // border: solid 2px red;
 
-//     img {
-//       border: solid 2px red;
-//     }
-//   }
-// }
+    width: 50%;
+
+    h1 {
+      font-size: 25px;
+    }
+    img {
+      width: 60px;
+    }
+  }
+  .boxMenu {
+    width: 100%;
+    ul {
+      justify-content: space-evenly;
+      font-size: 22px;
+    }
+  }
+}
+@media (max-width: 590px) {
+  .boxLogo {
+    // border: solid 2px red;
+
+    width: 70%;
+  }
+}
+@media (max-width: 450px) {
+  .boxLogo {
+    // border: solid 2px red;
+
+    width: 80%;
+  }
+}
